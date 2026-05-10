@@ -93,7 +93,7 @@ php artisan serve
 ## Installation Frontend (`front/`)
 
 ```bash
-cd "C:\Users\ASUS\Desktop\projet web dynamique\front"
+
 
 # Installer les dépendances
 npm install
@@ -111,13 +111,12 @@ Chaque fois que vous voulez utiliser l'application, ouvrez **2 terminaux** :
 
 **Terminal 1 — Backend**
 ```bash
-cd "C:\Users\ASUS\Desktop\projet web dynamique\back"
+
 php artisan serve
 ```
 
 **Terminal 2 — Frontend**
 ```bash
-cd "C:\Users\ASUS\Desktop\projet web dynamique\front"
 npm run dev
 ```
 
@@ -153,14 +152,14 @@ Puis ouvrez **http://localhost:5173** dans votre navigateur.
 - Modifier une note (formulaire pré-rempli)
 - Supprimer une note avec confirmation
 - Badge de couleur selon la priorité (🟢 Basse / 🟠 Moyenne / 🔴 Haute)
-- Date de création affichée en format lisible (ex : 9 mai 2026)
+- Date de création affichée en format lisible 
 
 ### Retours utilisateur
 - Notifications toast après chaque action
 - Validation côté client (titre obligatoire)
 - Gestion des erreurs API (401, 422, 500)
 
-### Fonctionnalités BONUS (+3 pts)
+### Fonctionnalités BONUS 
 - **Filtre par priorité** : Toutes / Haute / Moyenne / Basse
 - **Recherche textuelle** : en temps réel sur titre et contenu
 
