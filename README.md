@@ -1,4 +1,4 @@
-# Prrojet-Notes_Personnelles
+# Projet-Notes_Personnelles
 
 > Laravel 11 + React 18 + Tailwind CSS + Laravel Sanctum + MySQL
 
